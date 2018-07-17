@@ -1,0 +1,14 @@
+<div class=product-card>
+  <img class=product-image src='../assets/karlsburg/{{product.imagePath}}'>
+  <div class=product-details>
+    <div class=separator>
+      <button class=a2c>add to cart</button>
+    </div>
+    <div class=product-price>INR {{product.price}}</div>
+    <div class=product-name>{{product.name}}</div>
+    <div class=product-rating>Avg rating: {{product.ratingScore}}/5 ({{product.ratingCount}} reviews)</div>
+    <div class=product-message>
+      <app-product-message></app-product-message>
+    </div>
+  </div>
+</div>

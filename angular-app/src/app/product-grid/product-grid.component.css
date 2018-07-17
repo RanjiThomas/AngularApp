@@ -1,0 +1,10 @@
+.product-grid-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+}
+.flex-container {
+  display: flex;
+}
