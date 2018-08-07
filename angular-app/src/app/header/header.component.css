@@ -1,9 +1,37 @@
-div{
+div {
   display: block;
-  width: 100%;
-  background-color: black;
-  font-color: white;
+  background-color: gray;
+  font-color: black;
   height: 55px;
   margin: 0;
   padding: 0;
+}
+.logo {
+  height: 32px;
+  margin: 12px;
+}
+.menu-icon {
+}
+.header-container {
+  position: fixed;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 25% auto 25%;
+  z-index: 99;
+}
+.right-nav{
+  width: 25%
+}
+.left-nav {
+  width: 25%;
+  align-items: left;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+#search {
+  height: 32px;
+  width: 90%;
+  margin-top: 8px;
+  border-radius: 6px;
+  font-size: 16px;
 }

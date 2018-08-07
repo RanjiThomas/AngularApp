@@ -1,0 +1,9 @@
+{
+  "id": 1,
+  "name": "Best Shirt Ever",
+  "price": 200,
+  "ratingScore": 3.5,
+  "ratingCount": 30,
+  "imagePath": "NRIBH-26011-300x300.jpg",
+  "message": ""
+}

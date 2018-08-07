@@ -1,0 +1,49 @@
+.accordion {
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+.accordion-section {
+  padding: 15px;
+  border: 1px solid #d8d8d8;
+  background: #fbfbfb;
+}
+.accordion-section-title {
+  width: 100%;
+  display: inline-block;
+  background-image: url("https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_keyboard_arrow_up_48px-512.png");
+  background-size: 5% 100%;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+.accordion-section-title.active {
+
+  background: url("https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_keyboard_arrow_down_48px-128.png") top right no-repeat;
+  background-size: 5% 100%;
+  background-repeat: no-repeat;
+}
+.accordion-section-title.active, .accordion-section-title:hover {
+  text-decoration: none;
+  transition: color 0.1s linear;
+}
+.accordion-section-content {
+  padding: 15px 0;
+  display: none;
+}
+
+
+.fade-background{
+  transition: background 0.35s cubic-bezier(0.55, 0.06, 0.68, 0.19) !important;
+
+}
+a:link, a:visited {
+  color: black;
+  padding: 1px 2px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#checklist {
+  display: inline-table;
+}
+
